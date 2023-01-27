@@ -1,6 +1,7 @@
 #' Title
 #'
 #' @param split A character vector with, at most, one element.
+#' @param pattern A pattern about something
 #' @inheritParams stringr::str_split
 #'
 #' @return A character vector.
