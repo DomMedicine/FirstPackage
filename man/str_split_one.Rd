@@ -7,31 +7,15 @@
 str_split_one(string, pattern, n = Inf)
 }
 \arguments{
-\item{string}{Input vector. Either a character vector, or something
-coercible to one.}
+\item{string}{A character vector with, at most, one element.}
 
-\item{pattern}{Pattern to look for.
-
-The default interpretation is a regular expression, as described
-in \link[stringi:about_search_regex]{stringi::stringi-search-regex}. Control options with
-\code{\link[stringr:regex]{regex()}}.
-
-Match a fixed string (i.e. by comparing only bytes), using
-\code{\link[stringr:fixed]{fixed()}}. This is fast, but approximate. Generally,
-for matching human text, you'll want \code{\link[stringr:coll]{coll()}} which
-respects character matching rules for the specified locale.
-
-Match character, word, line and sentence boundaries with
-\code{\link[stringr:boundary]{boundary()}}. An empty pattern, "", is equivalent to
-\code{boundary("character")}.}
+\item{pattern}{A pattern about something}
 
 \item{n}{number of pieces to return.  Default (Inf) uses all
 possible split positions.
 
 For \code{str_split_fixed}, if n is greater than the number of pieces,
 the result will be padded with empty strings.}
-
-\item{split}{A character vector with, at most, one element.}
 }
 \value{
 A character vector.
