@@ -1,9 +1,9 @@
 Package: FirstPackage
-Title: What the Package Does (One Line, Title Case)
+Title: Split the sentens using the pattern
 Version: 0.0.0.9000
 Authors@R: 
     person("Dominik", "Nowak", , "dominik.nowak@outlook.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           comment = c(ORCID = "0000-0002-3515-4320"))
 Description: Creating the first package..
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -13,6 +13,7 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
+    dplyr,
     stringr
 URL: https://github.com/DomMedicine/FirstPackage
 BugReports: https://github.com/DomMedicine/FirstPackage/issues
