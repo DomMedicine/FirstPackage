@@ -2,3 +2,4 @@
 
 export(str_select)
 export(str_split_one)
+export(str_upper_letters)
