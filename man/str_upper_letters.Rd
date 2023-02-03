@@ -2,7 +2,7 @@
 % Please edit documentation in R/str_upper_letters.R
 \name{str_upper_letters}
 \alias{str_upper_letters}
-\title{Title}
+\title{convert the word from lower to upper letters}
 \usage{
 str_upper_letters(napis)
 }
@@ -13,5 +13,9 @@ str_upper_letters(napis)
 napis zapisany wielkimi literami
 }
 \description{
-Title
+convert the word from lower to upper letters
+}
+\examples{
+x <- 'example'
+str_upper_letters(x)
 }
