@@ -2,7 +2,7 @@ Package: FirstPackage
 Title: Getting started with packaging
 Version: 0.0.0.9000
 Authors@R: 
-    person("Dominik", "Nowak", , "dominik.nowak@outlook.com", role = c("aut", "cre"),
+    person("Dominik", "Nowak",, "dominik.nowak@outlook.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-3515-4320"))
 Description: The package is used to learn how to make packages.
 License: MIT + file LICENSE
