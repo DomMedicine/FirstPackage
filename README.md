@@ -12,6 +12,8 @@ see [stringr](https://stringr.tidyverse.org),
 # FirstPackage
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/DomMedicine/FirstPackage/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/DomMedicine/FirstPackage/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of FirstPackage is to make regular expressions more exciting!
