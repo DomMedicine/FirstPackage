@@ -4,10 +4,12 @@
 \alias{str_upper_letters}
 \title{convert the word from lower to upper letters}
 \usage{
-str_upper_letters(napis)
+str_upper_letters(napis, test)
 }
 \arguments{
 \item{napis}{napis ktory chcemy zrobic wielkimi literami}
+
+\item{test}{czy on tez sie przepisze}
 }
 \value{
 napis zapisany wielkimi literami
