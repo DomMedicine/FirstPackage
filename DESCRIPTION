@@ -15,6 +15,5 @@ Config/testthat/edition: 3
 Imports: 
     dplyr,
     stringr
-URL: https://github.com/DomMedicine/FirstPackage,
-    https://dommedicine.github.io/FirstPackage/
+URL: https://github.com/DomMedicine/FirstPackage
 BugReports: https://github.com/DomMedicine/FirstPackage/issues
