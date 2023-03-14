@@ -17,3 +17,8 @@ A selected variable from the data.frame
 \description{
 Title
 }
+\examples{
+dat <- data.frame('imie' = c('Ala', 'Adam'),
+                  'nazwisko' = c('Brylka', 'Banan'))
+str_select(dat = dat, imie = imie)
+}

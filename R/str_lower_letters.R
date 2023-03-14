@@ -1,7 +1,7 @@
 #' converts upper letter to lower
 #'
 #' @inheritParams str_upper_letters
-#'
+#' @importFrom stats lm
 #' @return wyraz napisany malymi literami
 #' @export
 #'
@@ -21,5 +21,6 @@ str_lower_letters <- function(napis){
   if(grepl('[[:punct:]]', napis)){
     stop('znaki interpunkcyjne')
   }
+  lm(Sepal.Length~Sepal.Width, data = iris)
   tolower(napis)
 }
